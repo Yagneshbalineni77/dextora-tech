@@ -39,7 +39,7 @@ export function HeroSection() {
               className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[180px] sm:max-w-[240px] md:max-w-[300px]"
               style={{ fontSize: "clamp(0.75rem, 1.4vw, 1.5rem)" }}
             >
-              A studio of three god-tier products engineering the interactive future
+              A studio engineering the interactive future — across learning, video, web, enterprise and government
             </p>
           </FadeIn>
           <FadeIn delay={0.5} y={20}>
