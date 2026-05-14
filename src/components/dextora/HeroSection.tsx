@@ -18,22 +18,8 @@ export function HeroSection() {
       <div className="flex-1 flex flex-col justify-end px-6 md:px-10 relative">
         <div className="absolute left-1/2 -translate-x-1/2 z-10 w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0 pointer-events-none">
           <FadeIn delay={0.6} y={30}>
-            <Magnet padding={150} strength={3}>
-              <div className="aspect-[3/4] rounded-[40px] overflow-hidden relative" style={{
-                background: "radial-gradient(circle at 50% 30%, #B600A8 0%, #7621B0 40%, #18011F 80%, #0C0C0C 100%)",
-                boxShadow: "0 30px 80px -20px rgba(182,0,168,0.4), inset 0 0 80px rgba(190,76,0,0.2)"
-              }}>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-[60%] aspect-square rounded-full" style={{
-                    background: "conic-gradient(from 0deg, #BE4C00, #B600A8, #7621B0, #18011F, #BE4C00)",
-                    filter: "blur(20px)",
-                    opacity: 0.7
-                  }} />
-                </div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-white/90 font-black text-7xl sm:text-8xl tracking-tighter">D</div>
-                </div>
-              </div>
+            <Magnet padding={180} strength={3.5}>
+              <RealityOrb />
             </Magnet>
           </FadeIn>
         </div>
