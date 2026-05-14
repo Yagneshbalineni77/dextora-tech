@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/dextora/FadeIn";
 import { Magnet } from "@/components/dextora/Magnet";
 import { ContactButton } from "@/components/dextora/Buttons";
+import { RealityOrb } from "@/components/dextora/RealityOrb";
 
 export function HeroSection() {
   return (
