@@ -15,7 +15,7 @@ export function GhostButton({ children, href = "#" }: { children: ReactNode; hre
   return (
     <a
       href={href}
-      className="inline-block rounded-full border-2 border-[#D7E2EA] text-[#D7E2EA] font-medium uppercase tracking-widest px-6 py-2.5 sm:px-8 sm:py-3 text-xs sm:text-sm hover:bg-[#D7E2EA]/10 transition-colors"
+      className="inline-block rounded-full border border-white/15 text-[#F8FAFC] font-medium uppercase tracking-widest px-6 py-3 sm:px-8 sm:py-3.5 text-xs sm:text-sm hover:border-[#3B82F6]/60 hover:bg-white/5 transition-all"
     >
       {children}
     </a>
